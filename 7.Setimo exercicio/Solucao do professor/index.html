@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang=pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,700;0,900;1,200;1,300;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <section class="container">
+        <h1>Calculadora de IMC</h1>
+                <p> Calcule seu Indice de massa corporal (IMC)</p>
+
+                <form class ="form" action="" method="get">
+                    <label for="peso">Peso:</label>
+                    <input type="text" id="peso" placeholder="Seu peso" name="peso">
+
+                    <label for="latura">Altura:</label>
+                    <input type="text" id="altura" placeholder="Digite em metros por favor" name="altura">
+
+                    <div class="gap"></div>
+                    <button type="submit">Calcular</button>
+                </form>
+                
+                <div class="gap"></div>
+                
+                <div class="resultado"></div>
+
+    </section>
+
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
