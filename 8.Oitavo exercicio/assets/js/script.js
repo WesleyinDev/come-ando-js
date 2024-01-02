@@ -13,6 +13,9 @@ function relogio() {
 
     const horaAtual = `${horas}:${minutos}:${segundos}`;
     const dataAtual = `${dia}/${mes}/${ano}`;
+    const diaatual = `${dia}/${mes}/${ano}`;
+    //  constante feito pela minha esposa :D const manha = `amanha eu trabalho` 
+    //  constante feito pela minha esposa tbm const tarde = `triste`
 
 
     switch (diaNome) {
